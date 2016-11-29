@@ -1,0 +1,152 @@
+
+.container {
+	width: 100%;
+}
+
+header {
+	background-color: #404040;
+}
+
+@font-face {
+	font-family: ucFont;
+	src: url(../fonts/TrajanPro-Bold.ttf);
+}
+
+header a {
+	color: #FFFFFF;
+}
+
+.navbar-header {
+	float: right;
+}
+
+@media (max-width: 1200px) {
+	.navbar-collapse {
+		padding: 0 0 0 0;
+	}
+}
+
+@media (max-width: 992px) {
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: right!important;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+/*
+@media (min-width: 768px) {
+	header img {
+		max-width: 650px;
+		min-width: 450px;
+		height: 40px;
+		padding-top: 2px;
+	}
+}
+*/
+.glyphicon-menu-hamburger {
+	color: #FFFFFF;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #262626;
+}
+
+#yellow {
+	height: 5px;
+	background-color: #FFFF00;
+}
+
+#sec1,
+#sec2,
+#sec3 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.uec_image img {
+	max-width: 100%;
+}
+
+.w_background {
+	background-color: #FFFFFF;
+}
+
+.g_background {
+	background-color: #CCCCCC;
+}
+
+div > p {
+	color: #FFFF00;
+	text-align: justify;
+}
+
+.uec_brands {
+	padding: 10px 0 10px 0;
+}
+
+.uec_brands p {
+	color: #000000;
+}
+
+.uec_brands h3 {
+	text-align: center;
+}
+
+footer {
+	padding: 70px 0 70px 0;
+}
+
+footer,
+footer a {
+	background-color: #4C4C4C;
+	color: #FFFFFF;
+}
+
+.h5 {
+	font-weight: bold;
+	letter-spacing: .15px;
+	text-transform: uppercase;
+}
+
+footer a:hover,
+footer a:focus {
+	color: #FFFF00;
+	text-decoration: underline;
+}
+
+footer ul li {
+	position: relative;
+}
+
+footer .glyphicon {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+}
+
+footer ul p {
+	display: inline-block;
+	padding-left: 30px;
+}
+
+ul {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-padding-start: 0px;
+}
