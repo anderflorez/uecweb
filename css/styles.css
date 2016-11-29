@@ -75,14 +75,28 @@
 	background-color: #FFFF00;
 }
 
-#sec1,
-#sec2,
-#sec3 {
-	padding-top: 15px;
-	padding-bottom: 15px;
+section {
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
+section.container {
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.moveleft {
+		right: 20px;
+	}
+	.moveright {
+		left: 20px;
+	}
+}
+
+
+
 .uec_image img {
+	display: inline-block;
 	max-width: 100%;
 }
 
@@ -100,6 +114,7 @@ div > p {
 }
 
 .uec_brands {
+	display: inline-block;
 	padding: 10px 0 10px 0;
 }
 
