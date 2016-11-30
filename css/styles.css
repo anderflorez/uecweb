@@ -93,7 +93,12 @@ section.container {
 	}
 }
 
-
+@media (max-width: 768px) {
+	.uec_image {
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+}
 
 .uec_image img {
 	display: inline-block;
@@ -108,11 +113,6 @@ section.container {
 	background-color: #CCCCCC;
 }
 
-div > p {
-	color: #FFFF00;
-	text-align: justify;
-}
-
 .uec_brands {
 	display: inline-block;
 	padding: 10px 0 10px 0;
@@ -120,6 +120,7 @@ div > p {
 
 .uec_brands p {
 	color: #000000;
+	text-align: justify;
 }
 
 .uec_brands h3 {
