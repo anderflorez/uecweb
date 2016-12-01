@@ -94,13 +94,13 @@ section.container {
 }
 
 @media (max-width: 768px) {
-	.uec_image {
+	.uc_image {
 		padding-top: 20px;
 		padding-bottom: 40px;
 	}
 }
 
-.uec_image img {
+.uc_image img {
 	display: inline-block;
 	max-width: 100%;
 }
@@ -113,17 +113,30 @@ section.container {
 	background-color: #CCCCCC;
 }
 
-.uec_brands {
+.uc_text {
 	display: inline-block;
-	padding: 10px 0 10px 0;
+	padding-bottom: 30px;
 }
 
-.uec_brands p {
+.uc_text p,
+.uc_text ul li {
 	color: #000000;
-	text-align: justify;
 }
 
-.uec_brands h3 {
+.uc_text h3 {
+	text-align: center;
+}
+
+.toppad {
+	padding-top: 20px;
+}
+
+.uc_text .btn {
+	display: block;
+	margin: 50px auto 0 auto;
+}
+
+#mission p {
 	text-align: center;
 }
 
@@ -164,6 +177,6 @@ footer ul p {
 	padding-left: 30px;
 }
 
-ul {
+footer ul {
 	margin-top: 50px;
 }
