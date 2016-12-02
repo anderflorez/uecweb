@@ -131,6 +131,10 @@ section.container {
 	padding-top: 20px;
 }
 
+#contact .h3 {
+	padding-top: 60px;
+}
+
 .uc_text .btn {
 	display: block;
 	margin: 50px auto 0 auto;
@@ -138,6 +142,11 @@ section.container {
 
 #mission p {
 	text-align: center;
+}
+
+#map {
+	width: 100%;
+	height: 500px;
 }
 
 footer {
@@ -162,17 +171,20 @@ footer a:focus {
 	text-decoration: underline;
 }
 
-footer ul li {
+footer ul li,
+#contact ul li {
 	position: relative;
 }
 
-footer .glyphicon {
+footer .glyphicon,
+#contact .glyphicon {
 	position: absolute;
 	bottom: 10px;
 	left: 0;
 }
 
-footer ul p {
+footer ul p,
+#contact ul p {
 	display: inline-block;
 	padding-left: 30px;
 }
