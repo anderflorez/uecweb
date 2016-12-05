@@ -35,6 +35,18 @@
 	}
 }
 
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #FFFFFF;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+		color: #FFFFFF;
+		background-color: #262626;
+		text-decoration: none;
+	}
+}
+
 @media (max-width: 400px) {
 	.navbar-brand {
 		font-size: 16px;
@@ -60,12 +72,35 @@
 	text-decoration: none;
 }
 
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #FFFFFF;
+	background-color: #262626;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
 	color: #FFFFFF;
 	background-color: #404040;
 	text-decoration: none;
 }
+
+.dropdown-menu {
+	top: 98%;
+	color: #FFFFFF;
+	background-color: #404040;
+}
+
+.dropdown-menu > li > a {
+	color: #FFFFFF;
+}
+
+.dropdown-menu > li > a:hover {
+	color: #FFFFFF;
+	background-color: #262626;
+}
+
  button {
  	color: #CCCCCC;
  }
@@ -73,6 +108,10 @@
 #yellow {
 	height: 5px;
 	background-color: #FFFF00;
+}
+
+.navspace {
+	padding-top: 55px;
 }
 
 section {
@@ -91,16 +130,24 @@ section.container {
 	.moveright {
 		left: 20px;
 	}
+
+	.navbar-nav > li > a {
+		padding: 15px 14px 15px 14px;
+	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.uc_image {
 		padding-top: 20px;
 		padding-bottom: 40px;
 	}
+	#uec_logo {
+		margin-top: 20px;
+	}
 }
 
-.uc_image img {
+.uc_image img,
+#uec_logo img {
 	display: inline-block;
 	max-width: 100%;
 }
@@ -115,6 +162,7 @@ section.container {
 
 .uc_text {
 	display: inline-block;
+	padding-top: 20px;
 	padding-bottom: 30px;
 }
 
@@ -192,4 +240,8 @@ footer ul p,
 
 footer ul {
 	margin-top: 50px;
+}
+
+#uec_logo {
+	margin-top: 30px;
 }
