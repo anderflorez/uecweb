@@ -10,7 +10,7 @@
 	<link rel="shortcut icon" href="../images/logos/uc.png">
 	<title>Unlimited Companies</title>
 </head>
-<body>
+<body onload="ucMap();">
 	
 	<!--Navbar-->
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -62,12 +62,14 @@
 			</ul>
 			<div class="col-xs-12">
 				<p class="h3">Office Location</p>
-				<div id="map"></div>
+				<div id="map"></div>				
 			</div>
 		</div>		
 	</div>
-	
 
+
+	
+	
 
 	<!-- Footer -->
 
@@ -103,6 +105,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="../js/bootstrap.js"></script>
 	<script type="text/javascript" src="../js/script.js"></script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ5wcuMoJwmegUXAhg9xBfPVxNQUDtMWs&callback=initMap"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyAZ5wcuMoJwmegUXAhg9xBfPVxNQUDtMWs&callback=ucMap"></script>
 </body>
 </html>
